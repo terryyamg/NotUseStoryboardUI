@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		2B5624DB1ED7E045005989A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5624DA1ED7E045005989A0 /* AppDelegate.swift */; };
 		2B5624DD1ED7E045005989A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5624DC1ED7E045005989A0 /* ViewController.swift */; };
-		2B5624E01ED7E045005989A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5624DE1ED7E045005989A0 /* Main.storyboard */; };
 		2B5624E21ED7E045005989A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5624E11ED7E045005989A0 /* Assets.xcassets */; };
 		2B5624E51ED7E045005989A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5624E31ED7E045005989A0 /* LaunchScreen.storyboard */; };
 		2B5624F01ED7E046005989A0 /* NotUseStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5624EF1ED7E046005989A0 /* NotUseStoryboardUITests.swift */; };
 		2B5624FB1ED7E046005989A0 /* NotUseStoryboardUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5624FA1ED7E046005989A0 /* NotUseStoryboardUIUITests.swift */; };
+		2B5625121ED81AF7005989A0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5625111ED81AF7005989A0 /* TableViewController.swift */; };
+		2B909CA61EDFBD1E00C92337 /* OursIsTheFury.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B909CA51EDFBD1E00C92337 /* OursIsTheFury.jpeg */; };
+		2B909CA81EDFBD2400C92337 /* HearMeRoar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B909CA71EDFBD2400C92337 /* HearMeRoar.jpeg */; };
+		2B909CAA1EDFBD2B00C92337 /* BloodAndFire.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B909CA91EDFBD2B00C92337 /* BloodAndFire.jpeg */; };
+		2B909CAC1EDFBD5500C92337 /* WinterIsComing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B909CAB1EDFBD5500C92337 /* WinterIsComing.jpeg */; };
+		2B909CAE1EDFC15300C92337 /* a_song_of_ice_and_fire.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B909CAD1EDFC15300C92337 /* a_song_of_ice_and_fire.jpeg */; };
+		2B909CB01EDFDE2F00C92337 /* TabBarOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B909CAF1EDFDE2F00C92337 /* TabBarOneViewController.swift */; };
+		2B909CB21EDFDE4200C92337 /* TabBarTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B909CB11EDFDE4200C92337 /* TabBarTwoViewController.swift */; };
+		2B909CB41EDFE03200C92337 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B909CB31EDFE03200C92337 /* TabBarViewController.swift */; };
+		2B909CB61EDFF0F300C92337 /* ic_star_popular_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B909CB51EDFF0F300C92337 /* ic_star_popular_half.png */; };
+		2B909CB81EDFF0F900C92337 /* ic_star_popular_activate.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B909CB71EDFF0F900C92337 /* ic_star_popular_activate.png */; };
+		2B909CBD1EDFF2FD00C92337 /* MyCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B909CBC1EDFF2FD00C92337 /* MyCustomButton.swift */; };
+		2B9E6ADD1EDE5ED400B30D49 /* TableViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E6ADC1EDE5ED400B30D49 /* TableViewControllerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +49,6 @@
 		2B5624D71ED7E045005989A0 /* NotUseStoryboardUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotUseStoryboardUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5624DA1ED7E045005989A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B5624DC1ED7E045005989A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2B5624DF1ED7E045005989A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B5624E11ED7E045005989A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B5624E41ED7E045005989A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5624E61ED7E045005989A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +58,19 @@
 		2B5624F61ED7E046005989A0 /* NotUseStoryboardUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotUseStoryboardUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5624FA1ED7E046005989A0 /* NotUseStoryboardUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotUseStoryboardUIUITests.swift; sourceTree = "<group>"; };
 		2B5624FC1ED7E046005989A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5625111ED81AF7005989A0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2B909CA51EDFBD1E00C92337 /* OursIsTheFury.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OursIsTheFury.jpeg; sourceTree = "<group>"; };
+		2B909CA71EDFBD2400C92337 /* HearMeRoar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HearMeRoar.jpeg; sourceTree = "<group>"; };
+		2B909CA91EDFBD2B00C92337 /* BloodAndFire.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BloodAndFire.jpeg; sourceTree = "<group>"; };
+		2B909CAB1EDFBD5500C92337 /* WinterIsComing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WinterIsComing.jpeg; sourceTree = "<group>"; };
+		2B909CAD1EDFC15300C92337 /* a_song_of_ice_and_fire.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a_song_of_ice_and_fire.jpeg; sourceTree = "<group>"; };
+		2B909CAF1EDFDE2F00C92337 /* TabBarOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarOneViewController.swift; sourceTree = "<group>"; };
+		2B909CB11EDFDE4200C92337 /* TabBarTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarTwoViewController.swift; sourceTree = "<group>"; };
+		2B909CB31EDFE03200C92337 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		2B909CB51EDFF0F300C92337 /* ic_star_popular_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_star_popular_half.png; sourceTree = "<group>"; };
+		2B909CB71EDFF0F900C92337 /* ic_star_popular_activate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_star_popular_activate.png; sourceTree = "<group>"; };
+		2B909CBC1EDFF2FD00C92337 /* MyCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomButton.swift; sourceTree = "<group>"; };
+		2B9E6ADC1EDE5ED400B30D49 /* TableViewControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +121,15 @@
 		2B5624D91ED7E045005989A0 /* NotUseStoryboardUI */ = {
 			isa = PBXGroup;
 			children = (
+				2B909CBB1EDFF27100C92337 /* UICustom */,
+				2B9E6ADB1EDE5E9E00B30D49 /* UITableViewCell */,
 				2B5624DA1ED7E045005989A0 /* AppDelegate.swift */,
 				2B5624DC1ED7E045005989A0 /* ViewController.swift */,
-				2B5624DE1ED7E045005989A0 /* Main.storyboard */,
+				2B5625111ED81AF7005989A0 /* TableViewController.swift */,
+				2B909CB31EDFE03200C92337 /* TabBarViewController.swift */,
+				2B909CAF1EDFDE2F00C92337 /* TabBarOneViewController.swift */,
+				2B909CB11EDFDE4200C92337 /* TabBarTwoViewController.swift */,
+				2B5625081ED814FD005989A0 /* Images */,
 				2B5624E11ED7E045005989A0 /* Assets.xcassets */,
 				2B5624E31ED7E045005989A0 /* LaunchScreen.storyboard */,
 				2B5624E61ED7E045005989A0 /* Info.plist */,
@@ -123,6 +153,36 @@
 				2B5624FC1ED7E046005989A0 /* Info.plist */,
 			);
 			path = NotUseStoryboardUIUITests;
+			sourceTree = "<group>";
+		};
+		2B5625081ED814FD005989A0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B909CB71EDFF0F900C92337 /* ic_star_popular_activate.png */,
+				2B909CB51EDFF0F300C92337 /* ic_star_popular_half.png */,
+				2B909CAD1EDFC15300C92337 /* a_song_of_ice_and_fire.jpeg */,
+				2B909CAB1EDFBD5500C92337 /* WinterIsComing.jpeg */,
+				2B909CA51EDFBD1E00C92337 /* OursIsTheFury.jpeg */,
+				2B909CA71EDFBD2400C92337 /* HearMeRoar.jpeg */,
+				2B909CA91EDFBD2B00C92337 /* BloodAndFire.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		2B909CBB1EDFF27100C92337 /* UICustom */ = {
+			isa = PBXGroup;
+			children = (
+				2B909CBC1EDFF2FD00C92337 /* MyCustomButton.swift */,
+			);
+			name = UICustom;
+			sourceTree = "<group>";
+		};
+		2B9E6ADB1EDE5E9E00B30D49 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2B9E6ADC1EDE5ED400B30D49 /* TableViewControllerCell.swift */,
+			);
+			name = UITableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +293,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B5624E51ED7E045005989A0 /* LaunchScreen.storyboard in Resources */,
+				2B909CAE1EDFC15300C92337 /* a_song_of_ice_and_fire.jpeg in Resources */,
+				2B909CAC1EDFBD5500C92337 /* WinterIsComing.jpeg in Resources */,
+				2B909CB81EDFF0F900C92337 /* ic_star_popular_activate.png in Resources */,
+				2B909CA61EDFBD1E00C92337 /* OursIsTheFury.jpeg in Resources */,
+				2B909CB61EDFF0F300C92337 /* ic_star_popular_half.png in Resources */,
+				2B909CA81EDFBD2400C92337 /* HearMeRoar.jpeg in Resources */,
+				2B909CAA1EDFBD2B00C92337 /* BloodAndFire.jpeg in Resources */,
 				2B5624E21ED7E045005989A0 /* Assets.xcassets in Resources */,
-				2B5624E01ED7E045005989A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B5624DD1ED7E045005989A0 /* ViewController.swift in Sources */,
+				2B909CB01EDFDE2F00C92337 /* TabBarOneViewController.swift in Sources */,
+				2B5625121ED81AF7005989A0 /* TableViewController.swift in Sources */,
+				2B909CB21EDFDE4200C92337 /* TabBarTwoViewController.swift in Sources */,
+				2B909CBD1EDFF2FD00C92337 /* MyCustomButton.swift in Sources */,
+				2B909CB41EDFE03200C92337 /* TabBarViewController.swift in Sources */,
 				2B5624DB1ED7E045005989A0 /* AppDelegate.swift in Sources */,
+				2B9E6ADD1EDE5ED400B30D49 /* TableViewControllerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +368,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2B5624DE1ED7E045005989A0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B5624DF1ED7E045005989A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B5624E31ED7E045005989A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -507,6 +571,7 @@
 				2B5625011ED7E046005989A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B5625021ED7E046005989A0 /* Build configuration list for PBXNativeTarget "NotUseStoryboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +580,7 @@
 				2B5625041ED7E046005989A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B5625051ED7E046005989A0 /* Build configuration list for PBXNativeTarget "NotUseStoryboardUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +589,7 @@
 				2B5625071ED7E046005989A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
